@@ -1,0 +1,128 @@
+[
+  {
+    "id": "experiment-01",
+    "number": "01",
+    "title": "Experiment 01",
+    "description": "The first full-length BIO COMMUNITY video is available to watch.",
+    "category": "Published video",
+    "video": "assets/videos/experiments/experiment-01.mp4",
+    "thumbnail": "assets/images/thumbnails/experiment-01.jpg",
+    "duration": "01:17",
+    "status": "published",
+    "objective": "",
+    "materials": [],
+    "procedure": [],
+    "observations": "",
+    "explanation": "",
+    "shortIds": [
+      "short-01",
+      "short-02",
+      "short-03"
+    ]
+  },
+  {
+    "id": "experiment-02",
+    "number": "02",
+    "title": "Experiment 02",
+    "description": "More experiment content is being prepared for the community.",
+    "category": "Coming soon",
+    "video": "",
+    "thumbnail": "",
+    "duration": "",
+    "status": "coming_soon",
+    "objective": "",
+    "materials": [],
+    "procedure": [],
+    "observations": "",
+    "explanation": "",
+    "shortIds": [
+      "short-02-1",
+      "short-02-2",
+      "short-02-3"
+    ]
+  },
+  {
+    "id": "experiment-03",
+    "number": "03",
+    "title": "Experiment 03",
+    "description": "More experiment content is being prepared for the community.",
+    "category": "Coming soon",
+    "video": "",
+    "thumbnail": "",
+    "duration": "",
+    "status": "coming_soon",
+    "objective": "",
+    "materials": [],
+    "procedure": [],
+    "observations": "",
+    "explanation": "",
+    "shortIds": [
+      "short-03-1",
+      "short-03-2",
+      "short-03-3"
+    ]
+  },
+  {
+    "id": "experiment-04",
+    "number": "04",
+    "title": "Experiment 04",
+    "description": "More experiment content is being prepared for the community.",
+    "category": "Coming soon",
+    "video": "",
+    "thumbnail": "",
+    "duration": "",
+    "status": "coming_soon",
+    "objective": "",
+    "materials": [],
+    "procedure": [],
+    "observations": "",
+    "explanation": "",
+    "shortIds": [
+      "short-04-1",
+      "short-04-2",
+      "short-04-3"
+    ]
+  },
+  {
+    "id": "experiment-05",
+    "number": "05",
+    "title": "Experiment 05",
+    "description": "More experiment content is being prepared for the community.",
+    "category": "Coming soon",
+    "video": "",
+    "thumbnail": "",
+    "duration": "",
+    "status": "coming_soon",
+    "objective": "",
+    "materials": [],
+    "procedure": [],
+    "observations": "",
+    "explanation": "",
+    "shortIds": [
+      "short-05-1",
+      "short-05-2",
+      "short-05-3"
+    ]
+  },
+  {
+    "id": "experiment-06",
+    "number": "06",
+    "title": "Experiment 06",
+    "description": "More experiment content is being prepared for the community.",
+    "category": "Coming soon",
+    "video": "",
+    "thumbnail": "",
+    "duration": "",
+    "status": "coming_soon",
+    "objective": "",
+    "materials": [],
+    "procedure": [],
+    "observations": "",
+    "explanation": "",
+    "shortIds": [
+      "short-06-1",
+      "short-06-2",
+      "short-06-3"
+    ]
+  }
+]

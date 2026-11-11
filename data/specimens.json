@@ -1,0 +1,29 @@
+[
+  {
+    "id": "specimen-01",
+    "name": "Microscope Observation 01",
+    "image": "assets/images/microscopy/microscope-observation-01.jpeg",
+    "description": "An authentic microscope image supplied for the BIO COMMUNITY gallery.",
+    "magnification": "",
+    "notes": "",
+    "status": "published"
+  },
+  {
+    "id": "specimen-02",
+    "name": "Microscope Observation 02",
+    "image": "assets/images/microscopy/microscope-observation-02.jpeg",
+    "description": "An authentic microscope image supplied for the BIO COMMUNITY gallery.",
+    "magnification": "",
+    "notes": "",
+    "status": "published"
+  },
+  {
+    "id": "specimen-03",
+    "name": "Microscope Observation 03",
+    "image": "assets/images/microscopy/microscope-observation-03.jpeg",
+    "description": "An authentic microscope image supplied for the BIO COMMUNITY gallery.",
+    "magnification": "",
+    "notes": "",
+    "status": "published"
+  }
+]

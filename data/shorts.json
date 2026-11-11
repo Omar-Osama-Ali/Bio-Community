@@ -1,0 +1,182 @@
+[
+  {
+    "id": "short-01",
+    "parentExperimentId": "experiment-01",
+    "number": "01",
+    "title": "Activity Highlights",
+    "description": "A short moment from the first BIO COMMUNITY experiment.",
+    "video": "assets/videos/shorts/short-01.mp4",
+    "thumbnail": "assets/images/thumbnails/short-01.jpg",
+    "status": "published"
+  },
+  {
+    "id": "short-02",
+    "parentExperimentId": "experiment-01",
+    "number": "02",
+    "title": "Learning in Action",
+    "description": "A short moment from the first BIO COMMUNITY experiment.",
+    "video": "assets/videos/shorts/short-02.mp4",
+    "thumbnail": "assets/images/thumbnails/short-02.jpg",
+    "status": "published"
+  },
+  {
+    "id": "short-03",
+    "parentExperimentId": "experiment-01",
+    "number": "03",
+    "title": "Creativity and Teamwork",
+    "description": "A short moment from the first BIO COMMUNITY experiment.",
+    "video": "assets/videos/shorts/short-03.mp4",
+    "thumbnail": "assets/images/thumbnails/short-03.jpg",
+    "status": "published"
+  },
+  {
+    "id": "short-02-1",
+    "parentExperimentId": "experiment-02",
+    "number": "01",
+    "title": "Short 01",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-02-2",
+    "parentExperimentId": "experiment-02",
+    "number": "02",
+    "title": "Short 02",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-02-3",
+    "parentExperimentId": "experiment-02",
+    "number": "03",
+    "title": "Short 03",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-03-1",
+    "parentExperimentId": "experiment-03",
+    "number": "01",
+    "title": "Short 01",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-03-2",
+    "parentExperimentId": "experiment-03",
+    "number": "02",
+    "title": "Short 02",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-03-3",
+    "parentExperimentId": "experiment-03",
+    "number": "03",
+    "title": "Short 03",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-04-1",
+    "parentExperimentId": "experiment-04",
+    "number": "01",
+    "title": "Short 01",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-04-2",
+    "parentExperimentId": "experiment-04",
+    "number": "02",
+    "title": "Short 02",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-04-3",
+    "parentExperimentId": "experiment-04",
+    "number": "03",
+    "title": "Short 03",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-05-1",
+    "parentExperimentId": "experiment-05",
+    "number": "01",
+    "title": "Short 01",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-05-2",
+    "parentExperimentId": "experiment-05",
+    "number": "02",
+    "title": "Short 02",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-05-3",
+    "parentExperimentId": "experiment-05",
+    "number": "03",
+    "title": "Short 03",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-06-1",
+    "parentExperimentId": "experiment-06",
+    "number": "01",
+    "title": "Short 01",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-06-2",
+    "parentExperimentId": "experiment-06",
+    "number": "02",
+    "title": "Short 02",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  },
+  {
+    "id": "short-06-3",
+    "parentExperimentId": "experiment-06",
+    "number": "03",
+    "title": "Short 03",
+    "description": "",
+    "video": "",
+    "thumbnail": "",
+    "status": "coming_soon"
+  }
+]

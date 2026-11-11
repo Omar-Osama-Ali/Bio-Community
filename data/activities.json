@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Activity Highlights",
+    "video": "assets/videos/shorts/short-01.mp4",
+    "poster": "assets/images/thumbnails/short-01.jpg"
+  },
+  {
+    "title": "Learning in Action",
+    "video": "assets/videos/shorts/short-02.mp4",
+    "poster": "assets/images/thumbnails/short-02.jpg"
+  },
+  {
+    "title": "Creativity and Teamwork",
+    "video": "assets/videos/shorts/short-03.mp4",
+    "poster": "assets/images/thumbnails/short-03.jpg"
+  }
+]

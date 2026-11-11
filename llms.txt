@@ -1,0 +1,17 @@
+# BIO COMMUNITY
+> Where Biology Comes to Life. Discover. Explore. Experiment.
+
+BIO COMMUNITY is a school-based Biology learning community website.
+The site publishes supplied experiment videos, associated short videos, microscope observations, and community activity documentation.
+
+Main pages:
+- index.html: Home
+- about.html: About the community
+- experiments.html: Experiment library
+- experiment.html?id=experiment-01: Published experiment details
+- shorts.html: Short-form videos grouped by experiment
+- microscopy.html: Supplied microscope images
+- activities.html: Supplied activity videos
+- privacy.html: Privacy and media information
+
+Only verified scientific details should be added to experiment and specimen records.
