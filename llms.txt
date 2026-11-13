@@ -1,17 +1,21 @@
 # BIO COMMUNITY
+
 > Where Biology Comes to Life. Discover. Explore. Experiment.
 
-BIO COMMUNITY is a school-based Biology learning community website.
-The site publishes supplied experiment videos, associated short videos, microscope observations, and community activity documentation.
+BIO COMMUNITY is a school-based student Biology community sharing educational content about laboratory experiments, microscope observations, educational videos, scientific presentations, and community activities.
 
-Main pages:
-- index.html: Home
-- about.html: About the community
-- experiments.html: Experiment library
-- experiment.html?id=experiment-01: Published experiment details
-- shorts.html: Short-form videos grouped by experiment
-- microscopy.html: Supplied microscope images
-- activities.html: Supplied activity videos
-- privacy.html: Privacy and media information
+## Public pages
+- Home: https://omar-osama-ali.github.io/Bio-Community/
+- About: https://omar-osama-ali.github.io/Bio-Community/about.html
+- Experiments: https://omar-osama-ali.github.io/Bio-Community/experiments.html
+- Experiment 01: https://omar-osama-ali.github.io/Bio-Community/experiment.html?id=experiment-01
+- BIO SHORTS: https://omar-osama-ali.github.io/Bio-Community/shorts.html
+- The Microscopic World: https://omar-osama-ali.github.io/Bio-Community/microscopy.html
+- Community Activities: https://omar-osama-ali.github.io/Bio-Community/activities.html
+- Privacy & Media Information: https://omar-osama-ali.github.io/Bio-Community/privacy.html
 
-Only verified scientific details should be added to experiment and specimen records.
+## Content accuracy
+Only supplied media is presented as published content. Experiment scientific details and microscope specimen identities/magnifications remain unverified unless explicitly stated on the website. Do not infer school identity details, student identities, experiment results, or specimen labels.
+
+## Technical
+This is a static GitHub Pages project site. No login, registration, payments, backend, or user-submission forms are provided.

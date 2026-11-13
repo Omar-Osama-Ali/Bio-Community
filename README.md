@@ -1,79 +1,98 @@
-# BIO COMMUNITY Website
+# BIO COMMUNITY — Website
 
-A responsive, multi-page static website built with HTML5, CSS3, and Vanilla JavaScript for GitHub Pages.
+**Where Biology Comes to Life.** Discover. Explore. Experiment.
 
-## Included
-- Home, About, Experiments, Experiment Details, BIO Shorts, Microscopic World, Activities, Privacy & Media Information, and 404 pages.
-- One supplied 77-second landscape video published as **Experiment 01**.
-- Three supplied portrait videos published as the three Shorts associated with Experiment 01.
-- Six experiment positions total, with Experiments 02–06 marked Coming Soon.
-- Three Shorts positions per experiment (18 total), with future positions marked Coming Soon.
-- Three supplied microscope images displayed under neutral observation labels pending specimen verification.
-- School logo included as secondary institutional identity.
-- Responsive navigation, native video playback, image viewer, reduced-motion support, SEO starter files.
+A static, multi-page educational website built with HTML5, CSS3, and Vanilla JavaScript for GitHub Pages.
 
-## Important content verification
-The source package does not include a confirmed experiment title, scientific objective, materials, procedure, observations, explanation, microscope specimen names, or magnification values. These fields are intentionally not invented. The live page uses the neutral label **Experiment 01** until the community supplies verified details.
+## Project contents
 
-The supplied portrait clips are used as the three associated Shorts based on the project brief. They are also shown in the Activities page because their filenames describe activity/learning moments. Remove them from either presentation if the school wants each media item used only once.
-
-Before public launch, confirm permission for all identifiable student photos/videos and verify that the school logo is approved for web publication.
+- Home, About, Experiments, reusable Experiment Details, BIO SHORTS, The Microscopic World, Community Activities, Privacy & Media Information, and 404 pages.
+- One published 77-second landscape experiment video.
+- Three published portrait Shorts associated with Experiment 01.
+- Six experiment positions total (Experiment 01 published; 02–06 Coming Soon).
+- Exactly three Shorts positions for each of the six experiment records (18 total).
+- Three authentic microscope images with neutral observation labels. Specimen identity and magnification remain unverified.
+- BIO COMMUNITY logo and school logo supplied for the project.
+- Responsive navigation, native video playback, accessible image viewer, content loading/error states, reduced-motion support, SEO metadata, sitemap, robots.txt, and llms.txt.
+- Footer credit: Created by Omar Osama, linking to the portfolio site.
 
 ## Run locally
-Because the site loads JSON using `fetch()`, open it through a local static server rather than `file://`.
 
-Example:
+The website fetches JSON data files, so serve the project over HTTP instead of opening pages with `file://`.
+
 ```bash
 python -m http.server 8000
 ```
-Then visit `http://localhost:8000`.
 
-## GitHub Pages deployment
-1. Create or open the target GitHub repository.
-2. Upload the contents of this folder to the repository root (not the enclosing folder).
-3. In repository Settings → Pages, select **Deploy from a branch**.
+Then open `http://localhost:8000/`.
+
+## Deploy to GitHub Pages
+
+1. Open the `Bio-Community` repository.
+2. Upload the **contents** of this folder to the repository root. Do not upload the enclosing folder as another nested directory.
+3. In repository **Settings → Pages**, choose **Deploy from a branch**.
 4. Select the deployment branch (usually `main`) and folder `/ (root)`.
 5. Save and wait for GitHub Pages to publish.
-6. Replace placeholder URLs in `robots.txt` and `sitemap.xml` with the final GitHub Pages URL.
-7. Update canonical URL metadata if/when the final domain is confirmed.
+6. The site is configured for the project-site base path `/Bio-Community/`. Internal paths are resolved relative to each deployed page, so the site remains compatible with a repository subdirectory.
 
-All page and asset references are relative, so the project supports deployment under a GitHub Pages repository subdirectory.
+Public URL: https://omar-osama-ali.github.io/Bio-Community/
 
-## Add a new experiment
-1. Add the MP4 to `assets/videos/experiments/` (H.264 recommended).
-2. Add a poster image to `assets/images/thumbnails/`.
-3. Edit `data/experiments.json` and replace the matching Coming Soon record. Keep a unique `id`, set `status` to `published`, and fill only verified fields.
-4. Set the `video`, `thumbnail`, and `shortIds` values.
-5. The reusable experiment detail page works with `experiment.html?id=YOUR-ID`.
+## Content configuration
 
-## Add its three Shorts
-1. Add three portrait MP4 files to `assets/videos/shorts/`.
-2. Add poster images to `assets/images/thumbnails/`.
-3. In `data/shorts.json`, replace the three Coming Soon records reserved for that experiment.
-4. Set each `parentExperimentId` to the exact experiment ID and `status` to `published`.
-5. Add those three Short IDs to the experiment's `shortIds` array.
+All published content and reserved positions are managed in JSON files under `data/`.
 
-## Add microscope images and specimen details
-1. Add the original image to `assets/images/microscopy/`.
-2. Add a record to `data/specimens.json` with a unique ID, display name, image path, verified description, and optional magnification/observation notes.
-3. Do not label a specimen or magnification until confirmed.
+### Add a full experiment
 
-## Add activity photographs or videos
-- Add approved media to `assets/images/activities/` or the relevant video folder.
-- Add records to `data/activities.json`.
-- Update `activities.html` only if a different media presentation is needed.
+1. Add its MP4 to `assets/videos/experiments/` (H.264 MP4 recommended).
+2. Add a representative poster to `assets/images/thumbnails/`.
+3. Open `data/experiments.json` and replace the next Coming Soon record.
+4. Keep a unique `id`; set `status` to `published`; fill the title, description, category, video, thumbnail, and duration.
+5. Add only verified objective, materials, procedure, observations, and explanation text. The reusable page is `experiment.html?id=YOUR-ID`.
 
-## Update branding
-Replace files in `assets/images/branding/` with approved logo exports while preserving original proportions and appearance. Update filenames in the HTML if filenames change.
+### Add exactly three Shorts
 
-## Media and performance notes
-- Full experiment video uses `preload="none"`.
-- Videos are served directly from the repository. GitHub Pages is suitable for a small initial static site but is not a dedicated large-video CDN. If the media library grows substantially, move videos to approved external video hosting and update the JSON paths without changing the UI components.
-- Keep compressed posters and responsive images reasonably sized.
+1. Add three portrait MP4 files to `assets/videos/shorts/` and three posters to `assets/images/thumbnails/`.
+2. In `data/shorts.json`, replace the three reserved records belonging to that experiment.
+3. Set each record's `parentExperimentId` to the exact experiment ID and `status` to `published`.
+4. Add the three Short IDs to that experiment's `shortIds` array in `data/experiments.json`.
+5. Confirm the three clips are the correct videos for that experiment. Each published Short automatically links to its parent experiment.
 
-## Known launch checklist
-- Confirm actual experiment title and scientific content.
-- Confirm which specimen is shown in each microscope image.
-- Confirm school approval and media permissions.
-- Replace sitemap/robots placeholder URLs.
-- Test the published GitHub Pages URL on real phones.
+### Add microscope images
+
+1. Add the original photograph to `assets/images/microscopy/`.
+2. Add a record to `data/specimens.json` with a unique ID, neutral name if the specimen is not verified, image path, and accurate description.
+3. Add magnification and preparation notes only when confirmed.
+
+### Add community activity media
+
+1. Add approved media to the appropriate assets directory.
+2. Add its title, video path, and poster path to `data/activities.json`.
+3. Do not add identifiable student media unless the appropriate permissions have been obtained.
+
+## GitHub Pages paths and SEO
+
+- Canonical URLs use the actual deployed site: `https://omar-osama-ali.github.io/Bio-Community/`.
+- `robots.txt` points to the project-site `sitemap.xml`.
+- The sitemap lists existing public pages and the currently published experiment detail route only.
+- The dynamic experiment page updates its canonical URL based on the selected experiment ID and marks unpublished experiment routes `noindex`.
+- Relative asset/data paths resolve from the project-site root, not the GitHub account root.
+
+## Media and privacy notes
+
+- Full experiment playback uses native MP4 video with `preload="none"`.
+- Shorts are muted by default, user-initiated, and pause when scrolled out of view. Starting one Short pauses the others.
+- Videos are compressed H.264 MP4 files with fast-start metadata. GitHub Pages is suitable for this initial small library but is not a dedicated video CDN; move large future media to an approved external host if the library grows significantly.
+- The website has no login, registration, payment, analytics, advertising trackers, or non-essential cookies.
+- Confirm school approval and permissions for all identifiable student photographs and videos before public distribution.
+- Do not infer scientific facts, experiment results, specimen identities, or magnification values from the supplied media alone.
+
+## QA performed for this delivery
+
+- JavaScript syntax validation.
+- JSON parsing for all content files.
+- XML parsing for `sitemap.xml`.
+- Local path/reference audit for HTML, CSS, JS, JSON, image, poster, and video assets.
+- Video stream/duration checks for the published experiment and three Shorts.
+- Static responsive/accessibility review of navigation, focus states, touch targets, reduced motion, image viewer controls, and error states.
+
+A live browser-based Lighthouse run and GitHub Pages deployment cannot be claimed from this local package; run those checks after uploading the files to the repository.
